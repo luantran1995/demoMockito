@@ -39,7 +39,7 @@ public class SomeBusinessMockTest {
 	@Test
 	public void testValueInsertvalue() {
 		Math math = new Math();
-		System.out.println(math);
+		//System.out.println(math);
 		assertThat(math.insertValue(), is(notNullValue()));
 	}
 }
