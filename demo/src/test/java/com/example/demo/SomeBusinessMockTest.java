@@ -38,7 +38,7 @@ public class SomeBusinessMockTest {
 
 	@Test
 	public void testValueInsertvalue() {
-		Math math = mock(Math.class);
+		Math math = new Math();
 		assertThat(math.insertValue(), is(notNullValue()));
 	}
 }
