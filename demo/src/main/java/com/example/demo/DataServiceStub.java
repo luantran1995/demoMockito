@@ -7,4 +7,10 @@ public class DataServiceStub implements DataService {
 			return new int [] {24,6,15};
 	}
 
+	@Override
+	public int[] retrieveAllData1() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
 }
